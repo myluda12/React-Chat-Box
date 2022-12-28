@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "name": "G DesPro",
+        "lastMessage": "Hello how are you?",
+        "lastMessageTime": "12:00",
+        "roomPicture": "https://ucarecdn.com/baac8b2a-e686-4ca8-93f2-22e1d7f2394d/",
+        "type": "Protected",
+        "unreadMessages": 5
+    },
+    {
+        "id": 2,
+        "name": "G DesPro",
+        "lastMessage": "Hello how are you?",
+        "lastMessageTime": "12:00",
+        "roomPicture": "https://ucarecdn.com/baac8b2a-e686-4ca8-93f2-22e1d7f2394d/",
+        "type": "Protected",
+        "unreadMessages": 5
+    },
+    {
+        "id": 3,
+        "name": "G DesPro",
+        "lastMessage": "Hello how are you?",
+        "lastMessageTime": "12:00",
+        "roomPicture": "https://ucarecdn.com/baac8b2a-e686-4ca8-93f2-22e1d7f2394d/",
+        "type": "Protected",
+        "unreadMessages": 5
+    },
+    {
+        "id": 4,
+        "name": "G DesPro",
+        "lastMessage": "Hello how are you?",
+        "lastMessageTime": "12:00",
+        "roomPicture": "https://ucarecdn.com/baac8b2a-e686-4ca8-93f2-22e1d7f2394d/",
+        "type": "Protected",
+        "unreadMessages": 5
+    },
+    {
+        "id": 5,
+        "name": "G DesPro",
+        "lastMessage": "Hello how are you?",
+        "lastMessageTime": "12:00",
+        "roomPicture": "https://ucarecdn.com/baac8b2a-e686-4ca8-93f2-22e1d7f2394d/",
+        "type": "Protected",
+        "unreadMessages": 5
+    }
+]
