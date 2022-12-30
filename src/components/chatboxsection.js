@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 // import ProfilePicture from '../resources/profilepicture.jpeg';
 import ProfilePic from './ChatSectionComponents/ProfilePic'
 import LastMessage from './ChatSectionComponents/LastMessage';
@@ -15,6 +15,8 @@ import UserName from './ChatSectionComponents/UserName';
 // render messages and room details
 
 function ChatBoxSection(props) {
+
+
   return (
     <div  onClick={props.onClick} > 
       <div class="flex m-3 rounded-lg p-2 hover:bg-gray-500 bg-gray-800 ">

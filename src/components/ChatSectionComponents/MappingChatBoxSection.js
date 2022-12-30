@@ -28,55 +28,19 @@ export const SectionChatData = [
       ProfilePic: SouSou,
     }
   ];
-export const SectionMsgsData = [
-    {
-      id: 1,
-      user: 'Nainhaja',
-      msg: 'Hello, how are you?',
-      Date: '00:00',
-      ProfilePic: Nizar,
-    },
-    {
-      id: 1,
-      user: 'Nainhaja',
-      msg: 'Hello, how are you?',
-      Date: '00:00',
-      ProfilePic: Nizar,
-    },
-    {
-      id: 1,
-      user: 'Nainhaja',
-      msg: 'Hello, how are you?',
-      Date: '00:00',
-      ProfilePic: Nizar,
-    },
-    {
-      id: 1,
-      user: 'Ayajrhou',
-      msg: 'Hello, how are you?',
-      Date: '00:00',
-      ProfilePic: Nizar,
-    },
-    {
-      id: 1,
-      user: 'Nainhaja',
-      msg: 'Hello, how are you?',
-      Date: '00:00',
-      ProfilePic: Nizar,
-    },
-  ];
 
 function MappingChatBoxSection(handleChatBoxSectionClick) {
+  
   return (
     <div >
-      {SectionChatData.map(message => (
+      {SectionChatData.map((message, idx) => (
         <ChatBoxSection
           key={message.id}
           UserName={message.UserName}
           LastMessage={message.LastMessage}
           Date={message.Date}
           ProfilePic={message.ProfilePic}
-          onClick={handleChatBoxSectionClick.onClick}
+          onClick={function () { handleChatBoxSectionClick.onClick(idx) } }
         />
       ))}
     </div>
