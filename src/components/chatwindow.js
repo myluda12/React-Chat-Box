@@ -46,9 +46,9 @@ export const SectionMsgsData = [
   [{
     id: 1,
     user: 'AMine',
-    msg: 'Hello, how are you?',
+    msg: 't9wd',
     Date: '00:00',
-    ProfilePic: Nizar,
+    ProfilePic: Fibo,
   },
   {
     id: 2,
@@ -60,9 +60,9 @@ export const SectionMsgsData = [
   {
     id: 1,
     user: 'AMine',
-    msg: 'Great.',
+    msg: 'T9wwd.',
     Date: '00:00',
-    ProfilePic: Nizar,
+    ProfilePic: Fibo,
   },
   {
     id: 2,
@@ -73,6 +73,37 @@ export const SectionMsgsData = [
   },
 
   ],
+  [{
+    id: 1,
+    user: 'sousou',
+    msg: 'mikrob',
+    Date: '00:00',
+    ProfilePic: SouSou,
+  },
+  {
+    id: 2,
+    user: 'Ayajrhou',
+    msg: 'Hello, how are you?',
+    Date: '00:00',
+    ProfilePic: Nizar,
+  },
+  {
+    id: 1,
+    user: 'sousou',
+    msg: 'chchcchch ',
+    Date: '00:00',
+    ProfilePic: SouSou,
+  },
+  {
+    id: 2,
+    user: 'Ayajrhou',
+    msg: 'Okay.',
+    Date: '00:00',
+    ProfilePic: Nizar,
+  },
+
+  ],
+
 ];
 
 
@@ -106,18 +137,12 @@ function ChatWindow() {
           </div>
         </div>
 
-        {/* <ChatBoxSection onClick={handleChatBoxSectionClick} /> */}
         <MappingChatBoxSection onClick={handleChatBoxSectionClick} />
       </div>
-      {/* {showChatBox } */}
-      {/* {!showChatBox && <EnteringChat />} */}
+    
       {showEnteringChat && <EnteringChat />}
       {showChatBox && <ChatBox sectionMsgsData={selectedConversation} />}
-      {/* <Router>
-          <div> */}
-      {/* <ChatBox /> */}
-      {/* </div>
-        </Router> */}
+   
 
 
 
